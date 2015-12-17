@@ -74,3 +74,18 @@ svara med ånga om högre än eller lika med 100
 använd switch inga if/else!
 
 */
+//lösningsförslag med switch på true:
+var vatten = prompt("Ange vattnets temperatur:");
+switch (true) {
+    case (vatten <= 0):
+        alert('Ice ice baby');
+        break;
+    case (vatten >= 100):
+        alert("Ånga it is...");
+        break;
+    case (vatten >0 && vatten <100):
+        alert('Vatten H2O osv...');
+    default:
+        alert('Felinmatning, inget tal har skrivits in');
+    break;
+}
