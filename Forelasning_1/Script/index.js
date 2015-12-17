@@ -26,3 +26,51 @@ alert(ageNextYear);
 alert(ageNextYearNumber);
 
 var ageString = String(ageNumber); //Konverterar till string
+
+
+//Kontroll om det är ett nummer med en prompt
+var age = prompt('Hur gammal är du?');
+if (isNaN(age)) {
+    alert('Not a number');
+}
+else {
+    alert('Du är ' + age + "år gammal");
+}
+
+// kontrollerar om vi har ett värde:
+var age;
+if (age) {
+    alert('Har ett värde!');
+}
+else {
+    alert('Har INTE ett värde!');
+}
+/*True: 
+ *  alla strängar som inte är tomma
+ *  alla nummer som inte är 0
+ *  "0"
+ *  true
+ * 
+ False:
+    ""
+    ''
+    undefined
+    false
+
+ * */
+var tal = prompt('Skriv ett tal:');
+switch (tal) {
+    case 1:
+        alert("ett");
+        break;
+    default:
+        alert('tvau');
+        break;
+}
+/*Skapa ett enkelt program som frågar efter vilken temperatur vatten har. 
+svara med is om lägre än eller lika med 0
+svara med vatten om  mellan is och ånga
+svara med ånga om högre än eller lika med 100
+använd switch inga if/else!
+
+*/
