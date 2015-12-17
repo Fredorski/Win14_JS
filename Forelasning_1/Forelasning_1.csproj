@@ -75,6 +75,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="index.html" />
+    <Content Include="Script\index.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
