@@ -75,8 +75,14 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="BMI.html" />
+    <Content Include="Calculator.html" />
     <Content Include="index.html" />
+    <Content Include="index2.html" />
+    <Content Include="Script\BMI.js" />
+    <Content Include="Script\calculator.js" />
     <Content Include="Script\index.js" />
+    <Content Include="Script\index2.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
