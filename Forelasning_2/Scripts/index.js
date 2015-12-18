@@ -7,6 +7,7 @@ var diven = document.getElementById('ett');
 //e är en identifierare för event-objektet
 diven.addEventListener('click', function() {
     alert('Hej från diven');
+    alert(document.getElementById('trew').value); //Hämtar värdet ifrån textboxen!
     arguments[0].stopPropagation();
 }, true);
 
