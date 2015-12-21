@@ -77,6 +77,8 @@
   <ItemGroup>
     <Content Include="index.html" />
     <Content Include="scripts\index.js" />
+    <Content Include="scripts\index2.js" />
+    <Content Include="scripts\Objectus.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
