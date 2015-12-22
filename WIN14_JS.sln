@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forelasning_3b", "Forelasni
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forelasning_4", "Forelasning_4\Forelasning_4.csproj", "{7EA2DDEA-6409-496B-9575-C144CE7E26ED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forelasning_4b", "Forelasning_4b\Forelasning_4b.csproj", "{F6C4E790-892A-4E92-AD0F-6243541F09E4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{7EA2DDEA-6409-496B-9575-C144CE7E26ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7EA2DDEA-6409-496B-9575-C144CE7E26ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7EA2DDEA-6409-496B-9575-C144CE7E26ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6C4E790-892A-4E92-AD0F-6243541F09E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6C4E790-892A-4E92-AD0F-6243541F09E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6C4E790-892A-4E92-AD0F-6243541F09E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6C4E790-892A-4E92-AD0F-6243541F09E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
