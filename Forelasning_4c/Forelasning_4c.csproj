@@ -78,6 +78,7 @@
   <ItemGroup>
     <Content Include="index.html" />
     <Content Include="scripts\index.js" />
+    <Content Include="TextFile1.txt" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

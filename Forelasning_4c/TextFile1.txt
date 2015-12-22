@@ -1,0 +1,3 @@
+﻿JSON-filen är genererad från denna sidan:
+
+http://experiments.mennovanslooten.nl/2010/mockjson/tryit.html
