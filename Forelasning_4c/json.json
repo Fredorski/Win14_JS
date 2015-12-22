@@ -1,0 +1,120 @@
+﻿{ 
+  "fathers" : [ 
+    { 
+      "id" : 0,
+      "married" : true,
+      "name" : "Michael Moore",
+      "sons" : null,
+      "daughters" : [
+        ]
+      },
+    { 
+      "id" : 1,
+      "married" : true,
+      "name" : "Jason Jones",
+      "sons" : null,
+      "daughters" : [ 
+        { 
+          "age" : 21,
+          "name" : "Laura"
+          },
+        { 
+          "age" : 15,
+          "name" : "Karen"
+          }
+        ]
+      },
+    { 
+      "id" : 2,
+      "married" : true,
+      "name" : "Jason Davis",
+      "sons" : null,
+      "daughters" : [ 
+        { 
+          "age" : 10,
+          "name" : "Elizabeth"
+          }
+        ]
+      },
+    { 
+      "id" : 3,
+      "married" : false,
+      "name" : "Edward Miller",
+      "sons" : null,
+      "daughters" : [ 
+        { 
+          "age" : 22,
+          "name" : "Shirley"
+          },
+        { 
+          "age" : 29,
+          "name" : "Carol"
+          }
+        ]
+      },
+    { 
+      "id" : 4,
+      "married" : false,
+      "name" : "Frank Taylor",
+      "sons" : null,
+      "daughters" : [
+        ]
+      },
+    { 
+      "id" : 5,
+      "married" : true,
+      "name" : "John Smith",
+      "sons" : null,
+      "daughters" : [ 
+        { 
+          "age" : 11,
+          "name" : "Betty"
+          },
+        { 
+          "age" : 18,
+          "name" : "Maria"
+          }
+        ]
+      },
+    { 
+      "id" : 6,
+      "married" : true,
+      "name" : "Jason Hall",
+      "sons" : null,
+      "daughters" : [
+        ]
+      },
+    { 
+      "id" : 7,
+      "married" : true,
+      "name" : "Paul Lopez",
+      "sons" : null,
+      "daughters" : [ 
+        { 
+          "age" : 11,
+          "name" : "Ruth"
+          },
+        { 
+          "age" : 19,
+          "name" : "Linda"
+          },
+        { 
+          "age" : 29,
+          "name" : "Sandra"
+          }
+        ]
+      },
+    { 
+      "id" : 8,
+      "married" : false,
+      "name" : "Eric Wilson",
+      "sons" : null,
+      "daughters" : [ 
+        { 
+          "age" : 8,
+          "name" : "Elizabeth"
+          }
+        ]
+      }
+    ]
+  }
