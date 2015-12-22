@@ -1,4 +1,6 @@
-﻿document.getElementById('ett').addEventListener('click', function (e) {
+﻿//Läs mer om event i kapitel 6 i boken!
+
+document.getElementById('ett').addEventListener('click', function (e) {
     //e.stopPropagation(); //Hindrar framfarten av eventet
     alert("DIVEN");
     document.getElementById('tvau').removeEventListener('click', fun, true); //Funkar bara om function är namngiven
