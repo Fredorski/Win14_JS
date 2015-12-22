@@ -21,3 +21,12 @@ request.onreadystatechange = function() {
     }
 }
 request.send();
+
+/*
+readyState:
+0) uninitialized - Has not started loading yet
+1) loading - Is loading
+2) loaded - Has been loaded
+3) interactive - Has loaded enough and the user can interact with it
+4) complete - Fully loaded
+ */
