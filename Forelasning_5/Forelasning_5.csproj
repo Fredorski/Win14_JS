@@ -67,8 +67,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="index2.html" />
+    <Content Include="index3.html" />
     <Content Include="packages.config" />
     <Content Include="Scripts\index2.js" />
+    <Content Include="Scripts\index3.js" />
     <Content Include="Scripts\jquery-2.1.0.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
