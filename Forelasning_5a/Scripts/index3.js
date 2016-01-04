@@ -1,12 +1,11 @@
-﻿$(document).ready(function() {
+﻿$(document).ready(function () {
 
-    $('button').on('click', function() {
+    $('button').on('click', function () {
         //körs när knappen tryckts:
         var price = $('<p>39.90Kr/pkt</p>');
-        $(this).after(price);        
+        $(this).after(price);
         //$(this).append(price);
         $(this).remove();
-
         //Hämta <ul>-elementet:
         //$(this).parent().parent().append(price);
         //Hämtar alla föräldrar och farföräldrar osv som är desert
