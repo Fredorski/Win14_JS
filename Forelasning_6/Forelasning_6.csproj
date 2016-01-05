@@ -84,14 +84,14 @@
     <Content Include="Scripts\jquery-2.1.4.min.js" />
     <Content Include="styles\index.css" />
     <Content Include="Web.config" />
-    <Content Include="wt-images\Giuseppe_Schembri.PNG" />
-    <Content Include="wt-images\ipman.PNG" />
-    <Content Include="wt-images\Keith_Kernspecht.PNG" />
-    <Content Include="wt-images\Lars_olsson.PNG" />
-    <Content Include="wt-images\Leung_Ting.PNG" />
-    <Content Include="wt-images\Michael_Stieler.PNG" />
-    <Content Include="wt-images\Oliver_Konig.PNG" />
-    <Content Include="wt-images\Thomas_Schron.PNG" />
+    <Content Include="wt_images\Giuseppe_Schembri.PNG" />
+    <Content Include="wt_images\ipman.PNG" />
+    <Content Include="wt_images\Keith_Kernspecht.PNG" />
+    <Content Include="wt_images\Lars_olsson.PNG" />
+    <Content Include="wt_images\Leung_Ting.PNG" />
+    <Content Include="wt_images\Michael_Stieler.PNG" />
+    <Content Include="wt_images\Oliver_Konig.PNG" />
+    <Content Include="wt_images\Thomas_Schron.PNG" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
