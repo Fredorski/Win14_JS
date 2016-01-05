@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Ip Man",
+    "title": "Late Great GM Ip Man ",
+    "url_image": "ipman.PNG",
+    "master_degree": "11. Stormästare WingTsun",
+    "about": "Bortgångne stormästaren som var tränare åt Leung Ting, Bruce Lee, Ip Chun m.fl."
+  },
+  {
+    "name": "Leung Ting",
+    "title": "GM Prof Leung Ting ",
+    "url_image": "Leung_Ting.PNG",
+    "master_degree": "10. Stormästare WingTsun",
+    "about": "Grundare och ledare för IWTO (International Wing Tsun Organisation), Träningskompis var Bruce Lee."
+  },
+  {
+    "name": "Keith Ronald Kernspecht",
+    "title": "GM Prof. Dr. Keith R. Kernspecht",
+    "url_image": "Keith_Kernspecht.PNG",
+    "master_degree": "10. Stormästare WingTsun (28.06.2000)",
+    "about": "Grundare och ledare för EWTO (European Wing Tsun Organisation)"
+  },
+  {
+    "name": "Oliver König",
+    "title": "GM Dr. Oliver König",
+    "url_image": "Oliver_Konig.PNG",
+    "master_degree": "9. Großmeistergrad WingTsun, 5. Meistergrad h.c. Escrima",
+    "about": "Landslagstränare för Österrike, Slovakien och Tjeckien"
+  },
+  {
+    "name": "Giuseppe Schembri",
+    "title": "GM Giuseppe Schembri, Mag. Sportpädagogik",
+    "url_image": "Giuseppe_Schembri.PNG",
+    "master_degree": "9. Großmeistergrad WingTsun, 5. Meistergrad Escrima",
+    "about": "Landslagstränare Schweiz, Liechtenstein"
+  },
+  {
+    "name": " Thomas Schrön",
+    "title": "DaiSifu and GM Giuseppe Schembri, Mag. Sportpädagogik",
+    "url_image": "Thomas_Schron.PNG",
+    "master_degree": "8. Meistergrad WingTsun, 3. Lehrergrad Escrima",
+    "about": "Utbildare på EWTO:s Huvudkvarteret i Heidelberg, Landslagstränare Sverige"
+  },
+  {
+    "name": "Michael Stieler",
+    "title": "Sifu",
+    "url_image": "Michael_Stieler.PNG",
+    "master_degree": "6. Meistergrad WingTsun",
+    "about": "Landslagstränare för Sverige."
+  },
+  {
+    "name": " Lars Olsson",
+    "title": "Sifu Lars Olsson",
+    "url_image": "Lars_Olsson.PNG",
+    "master_degree": "2. Lehrergrad WingTsun",
+    "about": "Tränare i Helsingborg, Sverige"
+  }
+]
