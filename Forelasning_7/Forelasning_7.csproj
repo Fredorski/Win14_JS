@@ -76,14 +76,14 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="images\bigCar01.jpg" />
-    <Content Include="images\bigCar02.jpg" />
-    <Content Include="images\mediumCar01.jpg" />
-    <Content Include="images\mediumCar02.jpg" />
-    <Content Include="images\mediumCar03.jpg" />
-    <Content Include="images\smallCar01.jpg" />
-    <Content Include="images\smallCar02.jpg" />
-    <Content Include="images\smallCar03.jpg" />
+    <Content Include="image\bigCar01.jpg" />
+    <Content Include="image\bigCar02.jpg" />
+    <Content Include="image\mediumCar01.jpg" />
+    <Content Include="image\mediumCar02.jpg" />
+    <Content Include="image\mediumCar03.jpg" />
+    <Content Include="image\smallCar01.jpg" />
+    <Content Include="image\smallCar02.jpg" />
+    <Content Include="image\smallCar03.jpg" />
     <Content Include="index.html" />
     <None Include="Scripts\jquery-2.1.4.intellisense.js" />
     <Content Include="Scripts\index.js" />
