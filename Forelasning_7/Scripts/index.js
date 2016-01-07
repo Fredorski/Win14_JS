@@ -1,5 +1,19 @@
 ﻿$(document).ready(function() {
-    getAll();
+    getAll(); 
+    //getSmall(); //verifierat att det fungerar att 
+
+    //Hämtar alla vid knapptryck:
+    $('#button1').click(function() {
+        $('div').remove();
+        getAll();
+    });
+
+    //Hämtar alla vid knapptryck:
+    $('#button4').click(function () {
+        $('div').remove();
+        getAll();
+        getSmall();
+    });
 });
 
 //Bilobjekten bör senare läggas i seperat .json-fil och hämtas med ajax-anrop:
@@ -68,7 +82,7 @@ var cars = [
     model: "Corp",
     image: "\image/smallCar03.jpg"
 }];
-
+//Refaktorisera getAll() genom att använd jQuery, du bör komma ner till ca 3-5 rader:
 function getAll() {
     var carLength = cars.length;
     for (var i = 0; i < carLength; i++) {
@@ -103,3 +117,14 @@ function getAll() {
         $(this).css('color', 'gray'); //Vad är detta?
     });
 }
+
+function getSmall(){
+    for (var i = 0; i < cars.length; i++) {
+        //displaya small cars
+        if (cars[i].type !== 'small') {
+            var j = "#" + i;
+            $(j).hide();
+        }
+    }
+}
+//getMedium och getLarge:
