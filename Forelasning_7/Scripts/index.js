@@ -1,4 +1,9 @@
-﻿var cars = [
+﻿$(document).ready(function() {
+    getAll();
+});
+
+//Bilobjekten bör senare läggas i seperat .json-fil och hämtas med ajax-anrop:
+var cars = [
 {
     name: "winnebago",
     type: "big",
@@ -63,3 +68,38 @@
     model: "Corp",
     image: "\image/smallCar03.jpg"
 }];
+
+function getAll() {
+    var carLength = cars.length;
+    for (var i = 0; i < carLength; i++) {
+        //hämta body tag
+        var span1 = document.getElementsByTagName('body');
+        //Skapa div-tag
+        var span = document.createElement('div');
+        //lägga till div tag på body
+        span1[0].appendChild(span);
+        //skapa rubrik-taggar
+        var jHeading = document.createElement('p');
+        var jHeading2 = document.createElement('p');
+        var price = document.createElement('p');
+        var img = document.createElement('img');
+        //Hämta text 
+        img.src = cars[i].image;
+        var inJHeading = document.createTextNode('Make' + cars[i].make);
+        var inJHeading2 = document.createTextNode('Model:' + cars[i].model);
+        var inPrice = document.createTextNode('Price: £' + cars[i].price);
+        //och sen informatin för taggarna
+        jHeading.appendChild(inJHeading);
+        jHeading2.appendChild(inJHeading2);
+        price.appendChild(inPrice);
+        //lägga till taggarna på diven
+        span.appendChild(jHeading);
+        span.appendChild(jHeading2);
+        span.appendChild(price);
+        span.appendChild(img);
+    }
+    $('div').each(function(i) {
+        this.id = i;
+        $(this).css('color', 'gray'); //Vad är detta?
+    });
+}
